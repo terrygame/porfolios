@@ -1,0 +1,16 @@
+# Build settings
+
+port: 4000
+markdown:  kramdown
+permalink: /:title
+plugins:   [jekyll-sitemap, jekyll-feed,  jekyll-seo-tag]
+assets:
+  compress: true
+  js_compressor: brotli
+  css_compressor: brotli
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+
+title:		   "Portfolios by Terry Li"
+description: "Powered by Jekyll and GitHub Pages"
+author:      "Terry Li"
